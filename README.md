@@ -105,3 +105,13 @@ docker ps -a
 - **`docker-compose down --volumes`** → Réinitialise la base de données 🔄  
 - **`docker exec -it <ID_CONTENEUR_DB> psql -U postgres -d mydatabase`** → Accéder à PostgreSQL 🗄️  
 - **`docker-compose logs -f`** → Voir les logs des services 📜  
+
+
+
+docker-compose up --build
+sudo docker-compose pull
+sudo docker-compose up -d
+
+sudo docker-compose down
+sudo docker-compose up -d
+
